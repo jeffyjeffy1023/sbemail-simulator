@@ -29,12 +29,65 @@ if NOT %sbemail%==jgemails.exe goto wrong
 echo ]
 
 :jgemails
+set /a email=%random% %%2 +1
+if %email%==1 goto email1 else goto jgemails
+if %email%==2 goto email2 else goto jgemails
+
+:email1
 cls
 echo Dear Jefferson,
 echo if you could have anything in the world,
 echo What would you have?
 echo.
 echo -NintenMan, Nevada
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+set /p reply=]
+if %reply%== goto jgemails ELSE goto preeow
+if %reply%==DELETED goto delorted ELSE goto preeow
+if %reply%==DELETED! goto delorted ELSE goto preeow
+if %reply%==deleted goto delorted ELSE goto preeow
+if %reply%==deleted! goto delorted ELSE goto preeow
+
+:email2
+cls
+echo ert+
+echo y76p; '0lu8jykee;u4p;e'/Rh
+echo jerf sn19476`-------++++++gf
+echo +++++-//==========/*8901ikg 
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+set /p reply=]
+if %reply%== goto jgemails ELSE goto preeow
+if %reply%==DELETED goto delorted ELSE goto preeow
+if %reply%==DELETED! goto delorted ELSE goto preeow
+if %reply%==deleted goto delorted ELSE goto preeow
+if %reply%==deleted! goto delorted ELSE goto preeow
+
+:email2
+cls
+echo Dear jeffy
+echo How do u type without
+echo boxing gloves?????? 
+echo 
+echo -dog
+echo.
+echo.
 echo.
 echo.
 echo.
