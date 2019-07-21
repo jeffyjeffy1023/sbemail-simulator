@@ -3,7 +3,7 @@
 Copy the source code into Notepad,
 or any other text editor, and save as .bat.
 
-2. Double click the .bat, type one of the syntaxex
+2. Double click the .bat, type one of the syntaxes
 (i.e jgemails.exe or jgemails.xex for example)
 
 All done!
