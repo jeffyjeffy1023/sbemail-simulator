@@ -1,0 +1,82 @@
+@echo off
+
+title Compy Simulator v1.1
+goto start
+
+
+cls
+
+:start
+set /p sbemail=]
+if %sbemail%== goto start
+if %sbemail%==jgemails.xex goto xexdolt
+if %sbemail%==jefferson_email.exe goto jgemails
+if %sbemail%==jefferson_emails.exe goto jgemails
+if %sbemail%==jeffersonemail.exe goto jgemails
+if %sbemail%==jeffersonemails.exe goto jgemails
+if %sbemail%==jg_email.exe goto jgemails
+if %sbemail%==jg_emails.exe goto jgemails
+if %sbemail%==jgemail.exe goto jgemails
+if %sbemail%==jgemails.exe goto jgemails
+if NOT %sbemail%==jefferson_email.exe goto wrong
+if NOT %sbemail%==jefferson_emails.exe goto wrong
+if NOT %sbemail%==jeffersonemail.exe goto wrong
+if NOT %sbemail%==jeffersonemails.exe goto wrong
+if NOT %sbemail%==jg_email.exe goto wrong
+if NOT %sbemail%==jg_emails.exe goto wrong
+if NOT %sbemail%==jgemail.exe goto wrong
+if NOT %sbemail%==jgemails.exe goto wrong
+echo ]
+
+:jgemails
+cls
+echo Dear Jefferson,
+echo if you could have anything in the world,
+echo What would you have?
+echo.
+echo -NintenMan, Nevada
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+set /p reply=]
+if %reply%== goto jgemails ELSE goto preeow
+if %reply%==DELETED goto delorted ELSE goto preeow
+if %reply%==DELETED! goto delorted ELSE goto preeow
+if %reply%==deleted goto delorted ELSE goto preeow
+if %reply%==deleted! goto delorted ELSE goto preeow
+
+
+:preeow
+echo.
+echo ]back
+>nul pause
+
+:wrong
+echo  %sbemail% is not recognized as an internal or external command, operable program or batch file.
+goto start
+timeout 1
+
+:delorted
+cls
+echo.
+echo.
+echo.
+echo --    l---  l     l---   --l--  l---  --    !!!
+echo l \   l     l     l        l    l     l \   !!!
+echo l  l  l---  l     l---     l    l---  l  l  !!!
+echo l  l  l     l     l        l    l     l  l
+echo L_/   L---  L___  L---     l    L---  L_/   !!!
+echo.
+echo.
+echo.
+>nul pause
+goto jgemails
+
+:xexdolt
+echo That's an Xbox Executable, you dolt!
+goto start
